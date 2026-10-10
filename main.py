@@ -1,4 +1,8 @@
 def greet():
     print("Hello, World!")
 
-greet()    
+def add_number(num1,num2):
+    return num1 + num2 
+ 
+greet()
+print(add_number(2,3))    
